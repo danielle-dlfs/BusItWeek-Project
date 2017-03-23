@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   font-size: 1em;
 }
@@ -37,3 +38,8 @@ header {
 #contentanswer{
   margin: 1em;
 }
+=======
+datalist {
+  display: block;
+}
+>>>>>>> e46b97756129695db4c9e164daeb7dd510596336
