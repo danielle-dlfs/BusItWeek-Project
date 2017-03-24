@@ -43,8 +43,8 @@ const Queries = (() => {
 const Alex = (() => {
   const respond = (question) => {
     const $answerElement = Queries.getAnswerTo(question);
-    $('main > div').fadeOut(() => {
-      $answerElement.fadeIn('');
+    $('main > div:visible').fadeOut('fast', () => {
+      $answerElement.fadeIn();
     });
   };
   return { respond: respond };
