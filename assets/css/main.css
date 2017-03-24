@@ -1,3 +1,70 @@
+/**  Text                                     */
+
+body{
+  color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+}
+
+/** Create the header                       */
+h1{
+  visibility: collapse;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #00bcd7;
+    margin-top: 0;
+}
+
+header > div{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+img{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+input{
+  width: 100%;
+  height: 20px;
+  font-style: Open Sans Regular sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+/**   The answer part                   */
+main{
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h2{
+    font-style: Roboto Slab Bold serif;
+    font-size: 30px;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+div.answer{
+    font-style:Open Sans Regular sans-serif;
+}
+
 datalist {
-  display: block;
+    display: block;
 }
