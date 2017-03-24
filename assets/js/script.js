@@ -10,28 +10,20 @@ const clone = function (o) {
 const Queries = (() => {
   const predefined = [
     {
-      question: 'This is a silly question',
-      response: 'This is a silly answer'
+      question: 'Can I have a successful IT career as a woman?',
+      responseElem: $('.a1')
     },
     {
-      question: 'This is another silly question, right?',
-      response: 'Pretty much'
+      question: 'How do I get started in IT?',
+      responseElem: $('.a2')
     },
     {
-      question: 'Hi I\'m a woman',
-      response: 'Hello woman.'
+      question: 'What is the current balance of male versus female?',
+      responseElem: $('.a3')
     },
     {
-      question: '',
-      response: ''
-    },
-    {
-      question: '',
-      response: ''
-    },
-    {
-      question: '',
-      response: ''
+      question: 'I LIKE TRAAAAINS',
+      responseElem: $('.a4')
     }
   ];
 
@@ -42,18 +34,18 @@ const Queries = (() => {
   const answerQuestion = (question) => {
     return predefined.filter((query) => {
       return query.question === question;
-    })[0].response;
+    })[0].responseElem;
   };
 
-  return {
-    get: get,
-    getAnswerTo: answerQuestion
-  }
+  return { get: get, getAnswerTo: answerQuestion }
 })();
 
 const Alex = (() => {
   const respond = (question) => {
-    $('main').prepend(Queries.getAnswerTo(question));
+    const $answerElement = Queries.getAnswerTo(question);
+    $('main > div').fadeOut(() => {
+      $answerElement.fadeIn('');
+    });
   };
   return { respond: respond };
 })();

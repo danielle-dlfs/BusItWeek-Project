@@ -9,9 +9,10 @@ body{
 }
 
 /** Create the header                       */
-h1{
+h1 {
   visibility: collapse;
 }
+
 header{
   width: 100%;
   display: flex;
@@ -42,6 +43,7 @@ input{
   margin-bottom: 5px;
   border-radius: 5px;
   text-indent: 5px;
+  padding: 7px;
 }
 
 /**   The answer part                   */
@@ -49,7 +51,7 @@ main{
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
-
+  font-family: 'Open Sans Regular', Helvetica, sans-serif;
 }
 h2{
     font-family: 'Roboto Slab Bold', Helvetica, serif;
@@ -58,8 +60,4 @@ h2{
     margin-top: 15px;
     margin-bottom: 15px;
 
-}
-
-div.answer{
-  font-family: 'Open Sans Regular', Helvetica, sans-serif;
 }
