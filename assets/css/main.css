@@ -30,9 +30,11 @@ header > div{
   justify-content: center;
 }
 
+
 img {
   margin: 15px auto 20px auto;
   align-items: center;
+  border-radius: 5px;
 }
 
 input{
@@ -53,11 +55,28 @@ main{
   margin-right: auto;
   font-family: 'Open Sans Regular', Helvetica, sans-serif;
 }
-h2{
+h2 {
     font-family: 'Roboto Slab Bold', Helvetica, serif;
     font-size: 30px;
     color: #666666;
     margin-top: 15px;
     margin-bottom: 15px;
+}
 
+div.famous{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.Ada, div.Ginny{
+  display: flex;
+  flex-direction: column;
+  margin:20px;
+}
+
+
+section{
+  margin-top: 20px;
+  max-width: 500px;
 }
