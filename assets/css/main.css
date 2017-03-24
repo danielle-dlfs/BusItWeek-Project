@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**  Text                                     */
 
 body{
@@ -65,6 +66,50 @@ div.answer{
     font-style:Open Sans Regular sans-serif;
 }
 
+=======
+<<<<<<< HEAD
+body{
+  font-size: 1em;
+}
+header {
+    background-color: #00BCD7;
+    width:100%;
+    min-height: 350px;
+    display:block;
+    margin:0px auto;
+    text-align:center;
+}
+
+#logo {
+  padding-top: 2em;
+  height:250px ;
+  width:"350px" ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#question{
+  display: inline-block;
+  padding-top: 2em;
+}
+
+#answer {
+  font-family:monospace;
+  font-size: 35px;
+  font-style: bold italic;
+  color: #666666;
+  margin-top: 2em;
+  margin-left: 2em;
+  vertical-align: middle;
+}
+
+#contentanswer{
+  margin: 1em;
+}
+=======
+>>>>>>> dd788d17358bece8d9141f9b720c777289583d46
 datalist {
     display: block;
 }
+>>>>>>> e46b97756129695db4c9e164daeb7dd510596336
