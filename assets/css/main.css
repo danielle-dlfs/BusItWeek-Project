@@ -29,9 +29,11 @@ header > div{
   justify-content: center;
 }
 
+
 img {
   margin: 15px auto 20px auto;
   align-items: center;
+  border-radius: 5px;
 }
 
 input{
@@ -60,6 +62,24 @@ h2{
 
 }
 
+
+div.famous{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.Ada, div.Ginny{
+  display: flex;
+  flex-direction: column;
+  margin:20px;
+}
+
 div.answer{
   font-family: 'Open Sans Regular', Helvetica, sans-serif;
+}
+
+section{
+  margin-top: 20px;
+  max-width: 500px;
 }
