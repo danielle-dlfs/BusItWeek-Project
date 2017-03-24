@@ -53,13 +53,13 @@ const Queries = (() => {
 
 const Alex = (() => {
   const respond = (question) => {
-    $('body').append(Queries.getAnswerTo(question));
+    $('main').prepend(Queries.getAnswerTo(question));
   };
   return { respond: respond };
 })();
 
 $(document).ready((function() {
-  const input = $('input[name=questionlist]');
+  const input = $('input[name=questionList]');
   Queries.get().forEach((query) => {
     $option = $(`<option value="${query.question}">${query.question}</option>`);
     $('datalist').append($option);

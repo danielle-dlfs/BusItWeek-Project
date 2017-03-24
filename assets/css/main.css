@@ -1,3 +1,65 @@
-datalist {
-  display: block;
+/**  Text                                     */
+
+body{
+  color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+  font-size: 1rem;
+}
+
+/** Create the header                       */
+h1{
+  visibility: collapse;
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #00bcd7;
+  margin-top: 0;
+  min-height: 350px;
+}
+
+header > div{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+img {
+  margin: 15px auto 20px auto;
+  align-items: center;
+}
+
+input{
+  width: 100%;
+  height: 20px;
+  font-family: 'Open Sans Regular', Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+/**   The answer part                   */
+main{
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h2{
+    font-family: 'Roboto Slab Bold', Helvetica, serif;
+    font-size: 30px;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+div.answer{
+  font-family: 'Open Sans Regular', Helvetica, sans-serif;
 }
